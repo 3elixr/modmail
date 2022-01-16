@@ -41,7 +41,7 @@ class ConfigManager:
         "anon_reply_without_command": False,
         "plain_reply_without_command": False,
         # logging
-        "log_channel_id": '879336718078181376',
+        "log_channel_id": None,
         "mention_channel_id": None,
         "update_channel_id": None,
         # updates
@@ -152,8 +152,8 @@ class ConfigManager:
 
     protected_keys = {
         # Modmail
-        "modmail_guild_id": '879334863818330142',
-        "guild_id": '755411885871857694',
+        "modmail_guild_id": None,
+        "guild_id": None,
         "log_url": "https://example.com/",
         "log_url_prefix": "/logs",
         "mongo_uri": None,
@@ -161,11 +161,11 @@ class ConfigManager:
         "connection_uri": None,  # replace mongo uri in the future
         "owners": None,
         # bot
-        "token": 'OTMyMTIwMzE4NjU3NTkzMzc0.YeOWsQ.6Pw1KWLXHkM5lGHS0ejP8ahG1Ow',
+        "token": None,
         "enable_plugins": True,
         "enable_eval": True,
         # github access token for private repositories
-        "github_token": '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',
+        "github_token": None,
         "disable_autoupdates": False,
         "disable_updates": False,
         # Logging
